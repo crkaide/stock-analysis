@@ -10,13 +10,13 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ### Analysis of Results and Code Performance
 
-#### Stock Performance (formatted charts)
+> #### Stock Performance (formatted charts)
 
 ![Stock Performance 2017](https://github.com/crkaide/stock-analysis/blob/main/Results_2017.png?raw=true)
 
 ![Stock Performance 2018](https://github.com/crkaide/stock-analysis/blob/main/Results_2018.png?raw=true)
 
-#### Code Performance (images)
+> #### Code Performance (images)
 
 ##### **_REFACTORED_ Code Run Times**
 
@@ -30,7 +30,13 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ![Module code (original) run time, 2018, REFERENCE ONLY](https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2018%20(reference%20only).png?raw=true)
 
+> Stock Performance:  
+
+> Code Performance:  
+
+
 PERCENT CHANGE/IMPROVEMENT FOR REFACTORED CODE
+
 
 
 Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
