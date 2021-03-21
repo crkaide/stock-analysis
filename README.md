@@ -53,4 +53,4 @@ General advantages of refactoring code include improving its performance time (a
 
 The only significant disadvantage of refactoring code is the time invested in the actual rewriting.  The larger the data set, the more time refactoring will save while running the macro.  However, refactored code must produce the same results as the original, and in some cases--as in this one--any time saved by the refactored code is significantly offset by the time it takes to rewrite it correctly.
 
-Although the percent changes reported above seem to contradict this final conclusion, in retrospect, more time was spent refactoring this particular code than was (or would ever be) saved by these improvements to it.  In a broad sense, refactoring code is advisable.
+Although the percent changes reported above seem to contradict this final conclusion, in retrospect, more time was spent refactoring this particular code than was (or would ever be) saved by these improvements to it, while in a broader sense, refactoring code is generally well-advised.
