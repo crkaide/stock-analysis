@@ -30,15 +30,16 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ![Module code (original) run time, 2018, REFERENCE ONLY](https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2018%20(reference%20only).png?raw=true)
 
-> Stock Performance:  The formatting in the "Return" columns of the Stock Performance charts shows the clearest picture of these results.  While the overwhelming majority of stocks (11 of 12) in this chart reported positive returns for 2017 (including DQ, +199.4%), the inverse is true for the following year.  In 2018, 10 of 12 stocks declined in value, with DQ showing the sharpest decline of all the stocks at -62.6%.  Despite the decline in the return, DQ traded approximately triple the volume in 2018 that it did the year before.  However, ENPH showed a similar increase in volume traded, while also reporting a +81.9% return in 2018.  Based on this data, it's recommended that investments in DQ be moved to ENPH. 
+> **Stock Performance:**  The formatting in the "Return" columns of the Stock Performance charts shows the clearest picture of these results.  While the overwhelming majority of stocks (11 of 12) in this chart reported positive returns for 2017 (including DQ, +199.4%), the inverse is true for the following year.  In 2018, 10 of 12 stocks declined in value, with DQ showing the sharpest decline of all the stocks at -62.6%.  Despite the decline in the return, DQ traded approximately triple the volume in 2018 that it did the year before.  However, ENPH showed a similar increase in volume traded, while also reporting a +81.9% return in 2018.  Based on this data, it's recommended that investments in DQ be moved to ENPH. 
 
-> Code Performance:
+> **Code Performance:**
 > * Refactored code 2017 ran in 0.140625 seconds.
 > * Refactored code 2018 ran in 0.140625 seconds.
 > * Original module code 2017 ran in 0.5625 seconds.
 > * Original module code 2018 ran in 0.546875 seconds.
-> * **Percent change for 2017 refactored code:  -75%**
-> * **Percent change for 2018 refactored code:  -74%**
+> 
+> * **_Percent change for 2017 refactored code:  -75%_**
+> * **_Percent change for 2018 refactored code:  -74%_**
 
 **REFACTORED CODE RUNS _SIGNIFICANTLY_ FASTER**
 
