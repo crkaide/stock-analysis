@@ -41,7 +41,9 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 > * **_Percent change for 2017 refactored code:  -75%_**
 > * **_Percent change for 2018 refactored code:  -74%_**
 
-**REFACTORED CODE RUNS _SIGNIFICANTLY_ FASTER**
+
+**CONCLUSION:  REFACTORED CODE RUNS _SIGNIFICANTLY_ FASTER**
+
 
 ## Summary
 
