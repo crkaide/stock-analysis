@@ -10,13 +10,21 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ### Analysis of Results and Code Performance
 
-**_REFACTORED_ Code Run Times**
+#### Stock Performance (formatted charts)
+
+![Stock Performance 2017](https://github.com/crkaide/stock-analysis/blob/main/Results_2017.png?raw=true)
+
+![Stock Performance 2018](https://github.com/crkaide/stock-analysis/blob/main/Results_2018.png?raw=true)
+
+#### Code Performance (images)
+
+##### **_REFACTORED_ Code Run Times**
 
 ![Refactored Code Run Time 2017: VBA_Challenge_2017.png](https://github.com/crkaide/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png?raw=true)
 
 ![Refactored Code Run Time 2018: VBA_Challenge_2018.png](https://github.com/crkaide/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
 
-**_ORIGINAL_ Code Run Times**
+##### **_ORIGINAL_ Code Run Times**
 
 ![Module code (original) run time, 2017, REFERENCE ONLY](https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2017%20(reference%20only).png?raw=true)
 
