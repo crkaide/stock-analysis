@@ -32,14 +32,15 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 > Stock Performance:  The formatting in the "Return" columns of the Stock Performance charts shows the clearest picture of these results.  While the overwhelming majority of stocks (11 of 12) in this chart reported positive returns for 2017 (including DQ, +199.4%), the inverse is true for the following year.  In 2018, 10 of 12 stocks declined in value, with DQ showing the sharpest decline of all the stocks at -62.6%.  Despite the decline in the return, DQ traded approximately triple the volume in 2018 that it did the year before.  However, ENPH showed a similar increase in volume traded, while also reporting a +81.9% return in 2018.  Based on this data, it's recommended that investments in DQ be moved to ENPH. 
 
-> Code Performance:  
+> Code Performance:
+> * Refactored code 2017 ran in 0.140625 seconds.
+> * Refactored code 2018 ran in 0.140625 seconds.
+> * Original module code 2017 ran in 0.5625 seconds.
+> * Original module code 2018 ran in 0.546875 seconds.
+> * **Percent change for 2017 refactored code:  -75%**
+> * **Percent change for 2018 refactored code:  -74%**
 
-
-PERCENT CHANGE/IMPROVEMENT FOR REFACTORED CODE
-
-
-
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+**REFACTORED CODE RUNS _SIGNIFICANTLY_ FASTER**
 
 
 ### Challenges and Difficulties Encountered
@@ -56,4 +57,8 @@ Output arrays
 ## Summary
 
 What are the advantages or disadvantages of refactoring code?
+
+I encountered significant difficulties refactoring this code and am proud to have come to a final result that runs correctly after extensive research as well as trial and error.  Although I'm happy with the reformatted code, it's not ideal and not what I would hope to produce in a real-world setting.  The primary drawback of the reformatted code--and the one I tried so hard to overcome--is the hard-coding of the ticker array.  In this code, the elements of the array are explicitly defined after it's defined.  The following arguments refer back to this hard-coded array to link volumes and returns to the proper index.  The potential problem arises if this macro is run on a data set with an index list that differs from the defined array.  Ideally, the tickerIndex variable would iterate over Cells(i, 1) from 2 To RowCount, return an unduplicated list of tickers based on those values, define those tickers as a dynamic array, and use that as the tickerIndex.  I made extensive attempts to accomplish this by trying to apply the ReDim statement to various combinations of the tickerIndex and output arrays, as well as creating a For loop to iterate over the values in Column A.  Hard-coding was the only successful solution.  General advantages of refactoring code include improving its performance time (an advantage which increases with the size of the data set), 
+
+
 How do these pros and cons apply to refactoring the original VBA script?
