@@ -12,11 +12,17 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 **_REFACTORED_ Code Run Times**
 VBA_Challenge_2017.png
+https://github.com/crkaide/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png?raw=true
+
 VBA_Challenge_2018.png
+https://github.com/crkaide/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true
 
 **_ORIGINAL_ Code Run Times**
 module run time_2017 (reference only)
+https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2017%20(reference%20only).png?raw=true
+
 module run time_2018 (reference only)
+https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2018%20(reference%20only).png?raw=true
 
 PERCENT CHANGE/IMPROVEMENT FOR REFACTORED CODE
 
