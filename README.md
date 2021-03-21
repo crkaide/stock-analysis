@@ -10,13 +10,13 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ### Analysis of Results and Code Performance
 
-> #### Stock Performance (formatted charts)
+#### Stock Performance (formatted charts)
 
 ![Stock Performance 2017](https://github.com/crkaide/stock-analysis/blob/main/Results_2017.png?raw=true)
 
 ![Stock Performance 2018](https://github.com/crkaide/stock-analysis/blob/main/Results_2018.png?raw=true)
 
-> #### Code Performance (images)
+#### Code Performance (images)
 
 ##### **_REFACTORED_ Code Run Times**
 
@@ -30,7 +30,7 @@ Initial analysis was done for the client (Steve) on a dataset that he provided c
 
 ![Module code (original) run time, 2018, REFERENCE ONLY](https://github.com/crkaide/stock-analysis/blob/main/module%20run%20time_2018%20(reference%20only).png?raw=true)
 
-> Stock Performance:  
+> Stock Performance:  The formatting in the "Return" columns of the Stock Performance charts shows the clearest picture of these results.  While the overwhelming majority of stocks (11 of 12) in this chart reported positive returns for 2017 (including DQ, +199.4%), the inverse is true for the following year.  In 2018, 10 of 12 stocks declined in value, with DQ showing the sharpest decline of all the stocks at -62.6%.  Despite the decline in the return, DQ traded approximately triple the volume in 2018 that it did the year before.  However, ENPH showed a similar increase in volume traded, while also reporting a +81.9% return in 2018.  Based on this data, it's recommended that investments in DQ be moved to ENPH. 
 
 > Code Performance:  
 
@@ -43,6 +43,9 @@ Using images and examples of your code, compare the stock performance between 20
 
 
 ### Challenges and Difficulties Encountered
+
+Only two years
+Output arrays
 
 
 
